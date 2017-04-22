@@ -1,0 +1,23 @@
+demo04:
+    typeconfig:
+        list:
+            - name: zhangsan
+              age: 23
+            - name: lisi
+              age: 20
+        items:
+            - from: zh
+              count: 12
+              price: 1.2
+            - from: en
+              count: 33
+              price: 5
+    methodconfig:
+        cars:
+            - color: red
+              weight: 123
+            - color: green
+              weight: 222
+    mail:
+        host: 192.168.0.1
+        port: 1234

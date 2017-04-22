@@ -32,4 +32,14 @@ To gracefully exit the application hit `ctrl-c`.
 默认读取配置文件的位置：当前目录/config, 当前目录，classpath/config, classpath, 按优先级下降　
 
 
+## 示例　demo
+demo01 最简单的启动　demo
+demo02 @SpringBootApplication注解，分散　Controler
+demo03 排除一些 autoConfig
+demo04 @ConfigurationProperties 配置到类上面和方法上面
+
+
+
+
+
 [spring boot 最新文档](https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#getting-started)  
