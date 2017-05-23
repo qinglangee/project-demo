@@ -37,6 +37,11 @@ demo01 最简单的启动　demo
 demo02 @SpringBootApplication注解，分散　Controler
 demo03 排除一些 autoConfig
 demo04 @ConfigurationProperties 配置到类上面和方法上面
+		使用代码取property
+demo05 简单定时器
+demo06 非 web 项目启动，　main() and run()
+demo07 返回html页面, jsp页面
+demo08 使用模板，返回模板页面
 
 
 

@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @EnableAutoConfiguration
-public class Demo01Starter {
+public class Demo01SimpleStarter {
     Logger LOG = LoggerFactory.getLogger(getClass());
 
     @RequestMapping("/")
@@ -42,6 +42,6 @@ public class Demo01Starter {
 
 
     public static void main(String[] args) throws Exception {
-        SpringApplication.run(Demo01Starter.class, args);
+        SpringApplication.run(Demo01SimpleStarter.class, args);
     }
 }

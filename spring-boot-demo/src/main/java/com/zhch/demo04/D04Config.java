@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 // 开启　ignoreUnknownFields = false，在配置文件中不能出现类中不存在的属性，但属性可以不存在于配置文件中
 @ConfigurationProperties(prefix = "demo04.typeconfig", ignoreUnknownFields = false)
-public class Demo04Config {
+public class D04Config {
 
     // 第一种，配置　map
     private List<Map<String, String>> list;

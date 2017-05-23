@@ -10,10 +10,10 @@ import org.springframework.stereotype.Component;
 
 @Component
 @EnableConfigurationProperties(MailProperty.class)
-public class Demo04Logic {
+public class D04Logic {
 
     @Autowired
-    Demo04Config config;
+    D04Config config;
 
     @Autowired
     MailProperty mailProp;
