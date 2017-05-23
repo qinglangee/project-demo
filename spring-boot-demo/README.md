@@ -41,7 +41,7 @@ demo04 @ConfigurationProperties 配置到类上面和方法上面
 demo05 简单定时器
 demo06 非 web 项目启动，　main() and run()
 demo07 返回html页面, freemarker
-demo08 使用模板，返回模板页面
+
 
 
 
