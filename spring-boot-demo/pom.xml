@@ -18,9 +18,15 @@
 		<version>1.5.2.RELEASE</version>
 	</parent>
 	<dependencies>
+		<!-- 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-freemarker</artifactId>
 		</dependency>
 
 		<!-- 默认关掉　spring-boot的缓存,开发时不需要缓存 -->

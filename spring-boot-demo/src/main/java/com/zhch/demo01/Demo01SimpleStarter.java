@@ -23,14 +23,14 @@ public class Demo01SimpleStarter {
         int a = 3;
         LOG.debug("a is :" + a);
         LOG.info("a is :{}", a);
-        return "Hello World!";
+        return "Hello World! Demo01SimpleStarter";
     }
-    
+
     @RequestMapping(value="/{user}", method=RequestMethod.GET)
     public User getUser(@PathVariable Long user) {
         return new User("zhangsan", 22);
     }
-    
+
     public class User{
         public String name;
         public int age;
