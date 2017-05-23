@@ -35,6 +35,7 @@ To gracefully exit the application hit `ctrl-c`.
 ## 示例　demo
 demo01 最简单的启动　demo
 demo02 @SpringBootApplication注解，分散　Controler
+	不同参数　１．路径参数　2. 普通参数
 demo03 排除一些 autoConfig
 demo04 @ConfigurationProperties 配置到类上面和方法上面
 		使用代码取property
