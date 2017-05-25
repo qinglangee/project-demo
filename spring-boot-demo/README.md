@@ -33,15 +33,18 @@ To gracefully exit the application hit `ctrl-c`.
 
 
 ## 示例　demo
-demo01 最简单的启动　demo
-demo02 @SpringBootApplication注解，分散　Controler
-	不同参数　１．路径参数　2. 普通参数
-demo03 排除一些 autoConfig
-demo04 @ConfigurationProperties 配置到类上面和方法上面
+demo01  最简单的启动　demo
+demo02  @SpringBootApplication注解，分散　Controler
+		不同参数　１．路径参数　2. 普通参数
+demo03  排除一些 autoConfig
+	    指定扫描的包
+demo04  @ConfigurationProperties 配置到类上面和方法上面
 		使用代码取property
-demo05 简单定时器
-demo06 非 web 项目启动，　main() and run()
-demo07 返回html页面, freemarker
+demo05  简单定时器
+demo06  非 web 项目启动，　main() and run()
+demo07  返回html页面, freemarker
+demo08  mongodb 配置，手动启动　mongo repository
+		@EnableMongoRepositories(basePackages={ "com.lifeix.leadread.spider"})
 
 
 

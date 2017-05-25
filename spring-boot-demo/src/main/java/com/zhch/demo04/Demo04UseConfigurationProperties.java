@@ -16,7 +16,7 @@ public class Demo04UseConfigurationProperties {
         String host = env.getProperty("demo04.mail.host");
         System.out.println("demo host is :" + host);
 
-        D04Logic logic = (D04Logic)ctx.getBean("demo04Logic");
+        D04Logic logic = (D04Logic)ctx.getBean("d04Logic");
         logic.printConfig();
     }
 }
