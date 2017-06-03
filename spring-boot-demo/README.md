@@ -45,6 +45,8 @@ demo06  非 web 项目启动，　main() and run()
 demo07  返回html页面, freemarker
 demo08  mongodb 配置，手动启动　mongo repository
 		@EnableMongoRepositories(basePackages={ "com.lifeix.leadread.spider"})
+demo09  简单的测试用例
+demo10  使用　Spring Context 的测试用例
 
 
 

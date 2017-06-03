@@ -6,7 +6,8 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
 /**
- * 可以在别的类中配置　@EnableScheduling
+ * 可以在别的类中配置　@EnableScheduling <br>
+ * 只要　@EnableScheduling 在某个 @Configuration 的类上全局配置一次就可以了
  */
 @Component
 public class Job02 {
