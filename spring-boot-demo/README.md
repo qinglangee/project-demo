@@ -37,16 +37,20 @@ demo01  最简单的启动　demo
 demo02  @SpringBootApplication注解，分散　Controler
 		不同参数　１．路径参数　2. 普通参数
 demo03  排除一些 autoConfig
-	    指定扫描的包
+	    指定扫描的包: scanBasePackages
 demo04  @ConfigurationProperties 配置到类上面和方法上面
 		使用代码取property
 demo05  简单定时器
 demo06  非 web 项目启动，　main() and run()
 demo07  返回html页面, freemarker
-demo08  mongodb 配置，手动启动　mongo repository
+demo08  mongodb 配置，手动启动　mongo repository, basePackages 指定扫描路径
 		@EnableMongoRepositories(basePackages={ "com.lifeix.leadread.spider"})
 demo09  简单的测试用例
 demo10  使用　Spring Context 的测试用例
+demo11  使用　spring-boot-starter-data-jpa  (Hibernate实现)
+		1. 单表查询　(有自动生成方法之类的)
+		2. 关联查询
+		3. 使用 EntityManager 实现自定义查询, limit
 
 
 
