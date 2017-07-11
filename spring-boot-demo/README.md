@@ -51,6 +51,7 @@ demo11  使用　spring-boot-starter-data-jpa  (Hibernate实现)
 		1. 单表查询　(有自动生成方法之类的)
 		2. 关联查询
 		3. 使用 EntityManager 实现自定义查询, limit
+demo12  配置多个数据库
 
 
 
