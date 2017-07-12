@@ -56,6 +56,6 @@ demo12  配置多个数据库
 
 
 
-
+[别人写的一些示例](http://git.oschina.net/didispace/SpringBoot-Learning)  
 
 [spring boot 最新文档](https://docs.spring.io/spring-boot/docs/current-SNAPSHOT/reference/htmlsingle/#getting-started)  
